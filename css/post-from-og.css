@@ -1,0 +1,145 @@
+.icon32 {
+    margin: 0px 10px 0 14px;
+}
+#plugin-version {
+    font-size: .3em;
+    float:left;
+    clear: none;
+}
+
+#clear-url img {
+    margin-top: 5px;
+}
+
+form[name='og-form'] li {
+    padding-left: 8px
+}
+
+#pfog-response .desc {
+    font-weight:bolder;
+}
+
+#pfog-error {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    color: #B23300
+}
+#pfog-url-input li, #pfog-create-post li, #pfog-error, #loading-gif {
+    /*margin-right: 10px;*/
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#pfog-response ul {
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* URL INPUT */
+#pfog-url-input li.geturl {
+    width: 9%;
+    min-width: 100px;
+}
+#pfog-url-input li.resp {
+    width: 27%;
+    min-width: 100px;
+    text-align: left
+}
+#pfog-url-input li.inputtext {
+    width: 55%;
+}
+input[type='text'] {
+    width: 100%
+}
+
+
+#pfog-status-messages {
+    /*margin: 0 0 0 60px;*/
+    text-indent: 0px;
+    line-height: 1.4em;
+}
+
+/* RENDERED DATA */
+#og-description {
+    max-width: 50% !important;
+}
+
+#og-site_name, #og-type, #og-locale  {
+    font-size: 11px;
+    font-style: italic;
+    color: #a3a3a3
+}
+
+#og-title {
+    font-size: 1.5em;
+}
+
+#og-title a {
+    text-decoration: none;
+}
+
+#og-locale, #og-type {
+    display: none
+}
+
+/* TABLE */
+.widefat td, .widefat th {
+    border-width: 0;
+    border-style: none;
+}
+
+/* CREDITS */
+td.credits {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #d9d9d9;
+}
+td.credits-text {
+    font-style: italic;
+    color: #a3a3a3;
+    padding: 16px 15px 6px;;
+}
+
+td.credits-rod {
+    text-align: right;
+    font-size: 0.9em;
+    min-width: 300px;
+}
+
+/* BUTTON */
+.button-secondary-pfog {
+    background: #D4F3CD !important;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#D7FECF),to(#BFF4B4)) !important;
+    background-image: -webkit-linear-gradient(top,#D7FECF,#BFF4B4) !important;
+    background-image: -moz-linear-gradient(top,#D7FECF,#BFF4B4) !important;
+    background-image: -o-linear-gradient(top,#D7FECF,#BFF4B4) !important;
+    background-image: linear-gradient(to bottom,#D7FECF,#BFF4B4) !important;
+}
+
+.loading-gif-bg { 
+    background-image: url('../images/loading_hill.gif');
+    background-position: 0px 0px;
+    width: 50px;
+    height: 50px
+}
+
+.close-button-bg { 
+    background-image: url('../images/close_button.png');
+    background-position: 0px 0px;
+    width: 34px;
+    height: 28px;
+    display:block;
+}
+
+.create_that_post_holder {
+    margin-right: 10px;
+}
+
+p.desc {
+    font-style: italic;
+    margin: 0 0 0 60px;
+    width: 50%;
+    text-indent: 0px;
+    color: #929292
+}
